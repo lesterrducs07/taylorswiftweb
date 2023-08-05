@@ -1,0 +1,372 @@
+body{
+    margin: 0px 20px;
+    margin-top: 20px;
+}
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.flex1 a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 75px 20px 75px;
+}
+.flex1 a:hover{
+    color: black;
+}
+.header-pic{
+    width: 100%;
+}
+.flex-picsandvids {
+    max-width: 200px;
+    margin: 10px;
+}
+.flex1 div{
+    flex: 1;
+    background-color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    border: solid;
+    border-width: 0px 1px;
+    padding: 10px 0px;
+    text-align: center;
+    flex-shrink: 1;
+}
+.flex1 div:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+.flex1 img{
+    max-width: 30%;
+    margin-left: 20px;
+}
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.flex2 div{
+    width: 380px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3px;
+    margin: 0px 20px 40px 20px;
+    padding-top: 20px;
+    text-align: center;
+    flex-shrink: 1;
+}
+.flex2 div:hover{
+    background-color: rgba(0, 0, 0, 0.19);
+    border-color: rgba(0, 0, 0, 0.087);
+}
+.flex2 img{
+    max-width: 50%;
+    margin-left: 0px;
+}
+.flex2 p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.flex2-album{
+    font-family: Kanit;
+    font-size: 25px;
+    color: black;
+}
+.flex2 a{
+    text-decoration: none;
+    color: black;
+}
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.flex3 img{
+    margin: 0px 100px 20px 100px;
+}
+.flex3 h2 {
+    font-family: Kanit;
+    font-size: 25px;
+    color: black;
+    margin: 20px 20px 20px 5px;
+}
+.flex3 p{
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    padding-left: 30px;
+}
+.flex3 ol{
+    margin-left: 60px;
+}
+.flex3 ul{
+    margin: 60px 50px 50px 120px;
+}
+.flex3 li{
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+}
+.fullgrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.layout img{
+    width: 130px;
+}
+.title{
+    width: 200px;
+    margin: 0px;
+    display: inline-block;
+}
+.details{
+    text-align: start;
+}
+.details h2{
+    margin-left: 90px;
+    font-size: 20px;
+}
+.background{
+    background-color: rgba(128, 128, 128, 0.294);
+    border: none;
+    border-radius: 0px;
+    margin: 20px 0px;
+}
+.background1{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 0px;
+    margin: 20px 0px;
+}
+.background2{
+    flex: 1;
+    background-color: rgba(128, 128, 128, 0.294);
+    border: none;
+    border-radius: 5px;
+    margin: 0px;
+    display: inline-block;
+}
+.article h1, h2, h3, h4, p{
+    margin: 20px 40px;
+}
+.article h1{
+    font-family: Kanit,Arial;
+    font-size: 40px;
+    padding-top: 25px;
+    align-items: center;
+}
+.article h2{
+    font-family: Roboto,Arial;
+    font-size: 23px;
+}
+.article h3{
+    font-family: Open Sans;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.858)
+}
+.article h4{
+    font-family: Open Sans;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.858)
+}
+.article p{
+    font-family: Roboto;
+    font-size: 17px;
+}
+.ul-margin{
+    margin-left: 22px;
+    font-family: Roboto;
+    font-size: 17px;
+}
+.backtothetop{
+    margin-left: 250px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border: solid none;
+    border-radius: 20px;
+}
+.backtothetop:hover{
+    background-color: rgba(128, 128, 128, 0.294);
+    border: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: 400px 100px;
+}
+.box1{
+    background-color: lightgreen;
+    height: 50px;
+    width: 400px;
+    margin: 0px;
+}
+.box2{
+    background-color: lightcoral;
+    height: 100px;
+    width: 400px;
+    margin: 0px;
+}
+.image1{
+    height: 150px;
+}
+.image2-flexbox{
+    height: 120px;
+}
+
+.container-flexboxes{
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+}
+.container-flexbox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.container-flexbox{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 20px;
+    border: solid;
+    border-width: 0px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+}
+.flexbox1{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 400px;
+    margin: 0px;
+    padding: 20px;
+}
+.flexbox1 a{
+    font-family: Kanit;
+    font-size: 22px;
+}
+.flexbox2{
+    background-color: rgb(255, 255, 255);
+    height: 110px;
+    width: 400px;
+    margin: 0px;
+    padding: 0px 20px 20px 20px;
+    font-family: Roboto;
+    font-size: 15px;
+}
+.container-flexbox:hover{
+    background-color: rgba(128, 128, 128, 0.294);
+    border: none;
+}
+.container-flexbox a{
+    color: black;
+}
+.image1-flexbox{
+    height: 180px;
+    margin: 10px;
+}
+.flexbox-album{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.flexbox-p{
+    flex: 1;
+}
+.flexbox-album img{
+    width: 300px;
+    border: solid none;
+    border-radius: 150px;
+    margin-left: 60px;
+}
+.flexbox-album h1{
+    display: flex;
+    flex: 1;
+    font-family: Kanit;
+    font-size: 30px;
+    color: black;
+    margin-left: 35px;
+}
+.flexbox-1 p{
+    display: flex;
+    flex: 1;
+    font-family: Kanit;
+    font-size: 25px;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+.flexbox1, .flexbox2{
+    background-color: rgba(255, 255, 255, 0);
+}
+.flexbox-album2{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    margin: 0px;
+}
+.album-image1{
+    width: 300px;
+    margin: 40px 40px 0px 40px;
+    border: none solid;
+    border-radius: 5px;
+}
+.album-title1{
+    font-family: Kanit;
+    font-size: 20px;
+    padding-top: 45px;
+}
+.album-title1 p{
+    margin: 8px;
+}
+.album-title2{
+    font-family: Roboto;
+    font-size: 18px;
+    padding-top: 37px;
+}
+.album-title2 p{
+    margin: 17px;
+}
+.album-title2 img{
+    width: 35px;
+    margin: 0px 5px 0px 5px ;
+    cursor: pointer;
+}
+.ads-album{
+    flex: 1;
+    text-align: center;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 05px;
+    margin: 0px 50px 0px 50px;
+    cursor: pointer;
+}
+.flexbox-album2 h2{
+    font-family: Kanit;
+    font-size: 30px;
+}
+.text-album2, .text-album3{
+    font-family: Roboto;
+    font-size: 18px;
+}

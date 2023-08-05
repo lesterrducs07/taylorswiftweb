@@ -1,0 +1,47 @@
+     <div class="flex3">
+                    <img src="./pic/albumpics/Taylor_Swift_-_Taylor_Swift.png" alt="">
+                    <div class="details">
+                        <h1>Taylor Swift</h1>
+                        <p>Released: October 24, 2006</p>
+                        <p>Genre: Country</p>
+                        <p>Lenght: 40:28</p>
+                        <p>Big Machine Label</p>
+                        <p>Producers: Nathan Chapman, Robert Ellis Orral</p>
+                        <br><br>
+                        <p><a href="taylorswift-timmcgraw.html" target="_blank"></a></p>
+                    </div>
+                </div>
+                <div class="flex3">
+                    <div class="details">
+                        <h2>Songs:</h2>
+                        <ol>
+                            <li>Tim Mcgraw - 3:54</li>
+                            <li>Picture to Burn - 2:55</li>
+                            <li>Teardrops on my Guitar - 3:35</li>
+                            <li>A Place in this World - 3:22</li>
+                            <li>Cold as You - 4:01</li>
+                            <li>The Outside - 3:29</li>
+                            <li>Tied together with a Smile - 4:11</li>
+                            <li>Stay Beautiful - 3:58</li>
+                            <li>Should've Said No - 4:04</li>
+                            <li>Mary's Song - 3:33</li>
+                            <li>Our Song - 3:24</li>
+                        </ol>
+                    </div>
+                    <div class="flex3">
+                        <ul>
+                            <a href="youtube.com"><li>Lyrics</li></a>
+                            <li>Lyrics</li>
+                            <li>Lyrics</li>
+                            <li>Lyrics</li>
+                            <li>Lyrics</li>
+                            <li>Lyrics</li>
+                            <li>Lyrics</li>
+                            <li>Lyrics</li>
+                            <li>Lyrics</li>
+                            <li>Lyrics</li>
+                            <li>Lyrics</li>
+                            
+                        </ul>
+                    </div>
+                </div>
